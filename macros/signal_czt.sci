@@ -1,11 +1,11 @@
-function y = _czt(x, m, w, a)
+function y = signal_czt(x, m, w, a)
 // Compute the Chirp z-transform.
 //
 // Syntax
-//   y = _czt(x)
-//   y = _czt(x, m)
-//   y = _czt(x, m, w)
-//   y = _czt(x, m, w, a)
+//   y = signal_czt(x)
+//   y = signal_czt(x, m)
+//   y = signal_czt(x, m, w)
+//   y = signal_czt(x, m, w, a)
 //
 // Parameters
 // x: Input scalar or vector.
@@ -32,7 +32,7 @@ function y = _czt(x, m, w, a)
 // w = exp(-2 * %i * %pi * (f_end - f_start) / M);
 // a = exp(2 * %i * %pi * f_start);
 // // --- CZT Computation ---
-// X_czt = _czt(x, M, w, a);
+// X_czt = signal_czt(x, M, w, a);
 // // --- Frequency Axis ---
 // freq_czt = f_start + (0:(M - 1)) * (f_end - f_start) / M;
 // // --- Peak Frequency Detection ---
@@ -92,19 +92,4 @@ function y = _czt(x, m, w, a)
     end
     y = clean ( y ) ;
 endfunction
-
-B
-B
-B
-B
-B
-B
-B
-B
-A
-A
-A
-A
-
-i
 

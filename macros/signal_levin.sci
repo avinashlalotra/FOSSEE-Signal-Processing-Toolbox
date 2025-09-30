@@ -1,8 +1,8 @@
-function [ar, sigma2,rc] = _levin(r);
+function [ar, sigma2,rc] = signal_levin(r);
 // Resolve the Yule-Walker equations:
 // 
 // Syntax
-// [ar,sigma2,rc]=_levin(r)
+// [ar,sigma2,rc]=signal_levin(r)
 // 
 // Description
 //       |r(0)   r(1)   ... r(N-1)|| a(1) | |sigma2|
@@ -24,7 +24,7 @@ function [ar, sigma2,rc] = _levin(r);
 // // Correlation coefficients
 // r = [1, 0.8, 0.5, 0.2]
 // // Solve the Yule-Walker equations
-// [ar, sigma2, rc] = _levin(r)
+// [ar, sigma2, rc] = signal_levin(r)
 
 
 if length(r)==1 then

@@ -1,269 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book [
 <!--Begin Entities-->
-<!ENTITY abb1b10096115e1bcf619b219926165d6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/_czt.xml">
-<!ENTITY a0d382c14ea2f3357071878fe21c98090 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/_levin.xml">
-<!ENTITY a00bc39443c16c7917537f93863c77d50 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ac2poly.xml">
-<!ENTITY af4406b567071f4ff4f2995754fa2187b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ac2rc.xml">
-<!ENTITY a00b6683f824c6e3735743bdae664293c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arParEst.xml">
-<!ENTITY a4bda2c39f90349f29582d12e03ce5885 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ar_psd.xml">
-<!ENTITY a80bec787ae804cb0d5414131fdca6b6a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arburg.xml">
-<!ENTITY a0554d8f2d5fc45d2ba20076f4f98cb97 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arch_fit.xml">
-<!ENTITY afa5a96784e53335b462a7dcfe587936e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arch_rnd.xml">
-<!ENTITY a10590951a18ed13119a8d70988c3af9e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arch_test.xml">
-<!ENTITY a0cd9a79d575bdf872c709539efe87b71 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arcov.xml">
-<!ENTITY a3d3a8804195d5f92d18102d762bd1862 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/arma_rnd.xml">
-<!ENTITY af835e4977ce38c6b1009f00053442692 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/armcov.xml">
-<!ENTITY a858f0fc57bbed1f11edb69ff04d54f51 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/aryule.xml">
-<!ENTITY ad097c4541b0ec40ffe50f6e7b0051889 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/autoreg_matrix.xml">
-<!ENTITY acf6eddd873d4cfb0b13105658c7358ef SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/barthannwin.xml">
-<!ENTITY ac0e0d6ad4632ed5be8b4e511aeb2ce88 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/bartlett.xml">
-<!ENTITY ae2dc7b46602be37e4e75a691968067ef SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/besselap.xml">
-<!ENTITY a8fad4dde54e1b248700a7bfe93169ccd SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/besself.xml">
-<!ENTITY ab1a78226adcbfc157a6204cd598d9be1 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/bilinear.xml">
-<!ENTITY adfdcccee02d518b631c11101d630e64c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/bitrevorder.xml">
-<!ENTITY a3d346e1812f9c811709785ae5eac1b59 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/blackman.xml">
-<!ENTITY a488166551be15f13252e9463333a5043 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/blackmanharris.xml">
-<!ENTITY ae508615c3fca483570dc41705ef3c499 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/blackmannuttall.xml">
-<!ENTITY ad7395e82b4f1be991f192528c21272d0 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/bohmanwin.xml">
-<!ENTITY aa6cd12326adaab27487fadb5f7f51c7b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/boxcar.xml">
-<!ENTITY a8562289e8d8d647c6d5feb777fe8e10e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/buffer.xml">
-<!ENTITY a5485169521fbbd0f82564ea54ba8865a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/buttap.xml">
-<!ENTITY aefaf2f22850e710c28cfcdfe4d1e86c2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/butter.xml">
-<!ENTITY ab3d2aaeb5fb24c24579dfe7a28555969 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/buttord.xml">
-<!ENTITY a60b0ee818755c39b8aee4f261a872b45 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cceps.xml">
-<!ENTITY aedcd3d17b85aa1d3cd1a051e69b67959 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cconv.xml">
-<!ENTITY ab9a44443d6a640d9a9e6aa26b8a9f998 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cell2sos.xml">
-<!ENTITY a960b6cf31079f8e319e5be49e4e2bd8e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb.xml">
-<!ENTITY afb2b0f9638001336fbeaa9f6c7b865f5 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb1ap.xml">
-<!ENTITY ad6904690980e1a7591e4ce625902d465 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb1ord.xml">
-<!ENTITY aea713c4371d40a7563f1bf161a7b1515 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb2ap.xml">
-<!ENTITY a6120f4408fa1fd2ba779889deee26293 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheb2ord.xml">
-<!ENTITY a48b183271d23ba47b2d433231bed5841 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/chebwin.xml">
-<!ENTITY a6bf8920b252bc26871080df673322cc2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheby1.xml">
-<!ENTITY a8cf285b6d747266782b11de7a4873bcc SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cheby2.xml">
-<!ENTITY aebffde40b122ddffa3e96a11a62a4bb4 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/check.xml">
-<!ENTITY a4c4c009a9bb9967ff46ff4cb67c41e3b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/chirp.xml">
-<!ENTITY af4df1371b13b509caf0d8b175047f696 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/circshift.xml">
-<!ENTITY ae4e1e2eb62e9458b1cab125dbba97824 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/clustersegment.xml">
-<!ENTITY a9296567a3f9098ed5e58e7a9b8cfe2ca SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cmorwavf.xml">
-<!ENTITY adb7dcaeccfbd0a03e040643ed1386bc9 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cohere.xml">
-<!ENTITY adaa376a57abbd358af9aae78083a028a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/convmtx.xml">
-<!ENTITY a685c028417a33ca0ad8e9f773ee6d382 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/corrmtx.xml">
-<!ENTITY a3785725b8fa20c1b652d495f3bf6675d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cplxpair.xml">
-<!ENTITY aae1a34bef1efc3f7cf544938ae2bb143 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cplxreal.xml">
-<!ENTITY a187ce77b437d10da0b6b49cb6b8ea23f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cpsd.xml">
-<!ENTITY a6d82f9bba39bee4acfcb0dc92418f930 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cummax.xml">
-<!ENTITY ad29b1d06f0c91212c82b298f73401e9a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/cummin.xml">
-<!ENTITY a58d2a1b606f70995ab94f40bb0b363ee SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/db.xml">
-<!ENTITY a6e77fe89f7b1f5e95335879d8712119a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/db2pow.xml">
-<!ENTITY a3507cc8c28403c1bac4198b8bc010c07 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/dctmtx.xml">
-<!ENTITY ae0ebb8d95da815ba441e0dc045bf1bde SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/deconv.xml">
-<!ENTITY af6405f5d72725f6abaee9bc810a9cbe9 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/detrend1.xml">
-<!ENTITY a90b75cad0018b6731cdea49de991bb94 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/dftmtx.xml">
-<!ENTITY a8e2ace6a1d9abb468c07636ba6ecaa8c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/digitrevorder.xml">
-<!ENTITY a37c3df4affce1a1aae8cbd8dfb5ba5fe SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/diric.xml">
-<!ENTITY a8099045b22493e3889a6fa6855ec5d5f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/downsample.xml">
-<!ENTITY aa39e74a284973e56e3e5894f210fd650 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/dst1.xml">
-<!ENTITY a59b96c67ca8198fb03420cb869e22d14 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/durbinlevinson.xml">
-<!ENTITY abee96ac93b7676646c218e5771ed2a1a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/dutycycle.xml">
-<!ENTITY af62422b5565b4e183fe18c0fc9f451ef SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ellip.xml">
-<!ENTITY a682e911b68eccb56aa3b92fa5aceaa48 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ellipap.xml">
-<!ENTITY ad1ee867d6c1d132f082cd0c918f010db SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ellipord.xml">
-<!ENTITY a0525c10a95ae3f5b58f99caea526a8d5 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/enbw.xml">
-<!ENTITY afc9f1aab891cd293b3e8013ce44ab599 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/eqtflength.xml">
-<!ENTITY a6c35399565f2a4fe0b6f7c6dd07d7039 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/falltime.xml">
-<!ENTITY a7e30037599a4cf1601e5b4adbd19c0a1 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fft1.xml">
-<!ENTITY adb606c2d97d464e7ee8d8d2aa3ab41fe SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fft21.xml">
-<!ENTITY a0fa0c521c5e24013967810b1ade5306a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftconv.xml">
-<!ENTITY a8de4b0ffe5695c4e62f0b51657dbd481 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftfilt.xml">
-<!ENTITY af989466e6ecea0570a2ed90f124c1abd SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftn.xml">
-<!ENTITY a757d7163ee2a11078ad2721df4313feb SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fftshift1.xml">
-<!ENTITY a7b99b553c1bbe5939270fe358bc39da5 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fht.xml">
-<!ENTITY a3706b0020f30030832e6c3f8296a9e07 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/filter1.xml">
-<!ENTITY aad972a74419134a1e5d280fde6cdc914 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/filter2.xml">
-<!ENTITY af3eeffb2f07a97b7932b6046984f94db SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/filternorm.xml">
-<!ENTITY a7c2d8591cb05d3cb481fc4bc22bfd4a0 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/filtfilt.xml">
-<!ENTITY ab28791a0fd417a8955b014b67858447f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/filtic.xml">
-<!ENTITY a88d8113468977bd91aae600b841c1c99 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/filtord.xml">
-<!ENTITY aa2e94b06c33b7457c79b8634ca0c0679 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/findpeaks.xml">
-<!ENTITY a2fe0a525337b19f6166c9646319e04af SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fir1.xml">
-<!ENTITY ae444ea3775b106cbf5778fa9dcb796c2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fir2.xml">
-<!ENTITY ae4a97834ee770316371f2dbfb845665c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/firpmord.xml">
-<!ENTITY ad04715e11222b14c9ff2db1a5f7ffbbb SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/firtype.xml">
-<!ENTITY a5b76d9cabac5042f0b7aad790c6665f8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/flattopwin.xml">
-<!ENTITY a0fe17887e0e4ff20d78bf6382b75de12 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fractdiff.xml">
-<!ENTITY a97b31968da656364c396e199c4a1569f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/freqz.xml">
-<!ENTITY a24da4ce7e1d059f6a30f71ffa31ec5cc SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fwhm.xml">
-<!ENTITY a73ad2976468122bac113ccdf303e772c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/fwhmjlt.xml">
-<!ENTITY a82eb64a88dab08aca578f8d58741e309 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/gauspuls.xml">
-<!ENTITY ae4a2a598802f61c8b9abf115b1b019a6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/gaussdesign.xml">
-<!ENTITY a93621e44331b1e104985af893b6ac132 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/gaussian.xml">
-<!ENTITY aaa0bf1f8af764091c7b5a137aa43441b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/gmonopuls.xml">
-<!ENTITY aa3d430d5fd5063fd9051c986cef148f8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/goertzel.xml">
-<!ENTITY a37205d267843c202b6be4f2b9f023418 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/grpdelay.xml">
-<!ENTITY a9a1decc24dc92eeb7710d9a741bc1f2b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/h1_z_deriv.xml">
-<!ENTITY af0baa8376bd12dc1513da0223a6ec5bf SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/hamming.xml">
-<!ENTITY ac49a0f5c340715d876a5b6cfe98e4548 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/hann.xml">
-<!ENTITY afe8ac32474038b2091cb30164beed5ba SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/hanning.xml">
-<!ENTITY ad8f4079ef2fd48448f59b57015f44f77 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/hilbert1.xml">
-<!ENTITY abf80c8fcfe81c288a38a63d6b3809af8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/hurst.xml">
-<!ENTITY af1508d70136d3cbade265d0cdf8bc78d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/icceps.xml">
-<!ENTITY adaca6cce335f38965a3f98c416910801 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/idct1.xml">
-<!ENTITY af08d0105d442cd96e513fed88b15dfa2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/idct2.xml">
-<!ENTITY a93400bcd8e2a96e7080ff615bcdb3f4c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/idst1.xml">
-<!ENTITY a4f3c91b021f61bded1c0fb26874c495a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifft1.xml">
-<!ENTITY ac32f5074e7191246fd277c786080347b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifft2.xml">
-<!ENTITY aacfc3ff01771fc51fa37f6c254749500 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifftn.xml">
-<!ENTITY a5e86c19224d97f4f75cf9429940bc175 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifftshift1.xml">
-<!ENTITY a3579c35ba2fd8ac1be734a908a1af879 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ifht.xml">
-<!ENTITY a93f0fb473f5141df51a786b5d38aa508 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/iirlp2mb.xml">
-<!ENTITY af8ffe1b0871c90316ef18612534e536f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/impz.xml">
-<!ENTITY ad202666e3cc0ff4b023dfbef8160b3d4 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/impzlength.xml">
-<!ENTITY adf03a19e2b85ea26aaf45bc469bd21b8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/intfilt.xml">
-<!ENTITY aa00cfd449bbb75de920cdd65cec9c433 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/inv_residue.xml">
-<!ENTITY adb16c1083d69cefd62535f28bfe855b9 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/invfreq.xml">
-<!ENTITY a302d5d8e14f51aa8cd16302075abbd78 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/invfreqs.xml">
-<!ENTITY a5d1db37962ba7d3ecf28d50f92b497c9 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/invfreqz.xml">
-<!ENTITY aedcfdbb461aec298c3f97b6b6dc4ce55 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ipermute.xml">
-<!ENTITY af26f2f980446d3611d15deb526f5944f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/is2rc.xml">
-<!ENTITY a4718d414342da3902ca67ed905fb7438 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/isallpass.xml">
-<!ENTITY a95fcfbe479b5ea23754f11b64a99946d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/isfir.xml">
-<!ENTITY a72922d608f5693ad85d3fd2a87baed7a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/islinphase.xml">
-<!ENTITY a405fc39b90e09f8cca0ed4d1a168588d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ismaxphase.xml">
-<!ENTITY a3d7c3f5208e3ae68ced85eca5c83633b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/isminphase.xml">
-<!ENTITY a90155d051b6e87e166c9418dfcea0e20 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/isstable.xml">
-<!ENTITY aee90ed0d141f1af9bea86b89da569e8b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/kaiser.xml">
-<!ENTITY ae423231ac8e9abba2c9d7845b6216e09 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/kaiserord.xml">
-<!ENTITY a851baa7d17e4580443947f495566cc2a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/lar2rc.xml">
-<!ENTITY ab9d6f77a61967e9530a9c1b10ed663f8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/latc2tf.xml">
-<!ENTITY a5f3ad7662a83f978a6fa9aa83d7f78d6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/levdown.xml">
-<!ENTITY aa36872454f3f7e23f67feffb5d0b923a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/levinson.xml">
-<!ENTITY a78987fbdfc9fdcf50eba7d6227c325b7 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/lpc.xml">
-<!ENTITY a750c5f572e966fffa660267350770b37 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/lsf2poly.xml">
-<!ENTITY abde48fe850d7460c098f2a9abf3429b6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/mag2db.xml">
-<!ENTITY aea5aebe42b6e7a67e9f0da9106a40346 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/marcumq.xml">
-<!ENTITY a4bcb97e825a8722b24c63f89d7db941c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/medfilt1.xml">
-<!ENTITY ace6274598bff47ed8907cebfaaaa5175 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/mexihat.xml">
-<!ENTITY acc4db2b4bc158f9405903fcb84b8ea19 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/meyeraux.xml">
-<!ENTITY a22fd2eb6f0dabf249204c89ac52865d3 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/midcross.xml">
-<!ENTITY aa4ca2623d4bcea73d8756ec030edcbd2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/modulate.xml">
-<!ENTITY a8b0912f63de744b4e64ee3af5b40eb59 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/morlet.xml">
-<!ENTITY a4305db01bf825357d199dfe42aff1fe2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/movingrms.xml">
-<!ENTITY a6decf203562459c46fceff5783f0908b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/mpoles.xml">
-<!ENTITY a29cb6b62ef8197b4269d4a2d520f55f3 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/mscohere.xml">
-<!ENTITY af91210d527522fd12c386f93eb83b189 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/musicBase.xml">
-<!ENTITY a30a22a4a2c9ef9cc270810384a664d08 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ncauer.xml">
-<!ENTITY a8c1a712a6265bfef3e0d9b69926fbd78 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/nnls.xml">
-<!ENTITY a93450aeea19ec9c0bd676c5a18aa7a7d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/nuttallwin.xml">
-<!ENTITY a33a50281f888b086325cea4860b6a133 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/oct_interp.xml">
-<!ENTITY a86b9f6880f233db8b828a1a641ffe90b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/ols.xml">
-<!ENTITY a2beb4176616658993d1aa650c322c3ba SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/parser.xml">
-<!ENTITY a22a08720f333296f40d11e6b319cb739 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/parzenwin.xml">
-<!ENTITY ae9368fba7d115d2ee9f01f68c6b51bea SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pburg.xml">
-<!ENTITY af7d087b3e52bd875d3a82624d4deabea SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pchip.xml">
-<!ENTITY ab165886e1dc53c7d6fecf3d36e6a758e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pchips.xml">
-<!ENTITY afc106595dded4441598dc9d2e80ca2f5 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/peak2peak.xml">
-<!ENTITY a2f7b27b4ac56d6f24a499ec2cc3cb71d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/peak2rms.xml">
-<!ENTITY ace0c3dcf39226bb7fe02eb5568d23426 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pei_tseng_notch.xml">
-<!ENTITY af9294c31c32f1dbeb5f1527182bd85ae SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/peig.xml">
-<!ENTITY ade6f311a3a6914e714a64233ca387619 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/periodogram.xml">
-<!ENTITY a11c1cdcd1e4a6430add27a6c5bcb1ab6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/phaseInputParseAs_ab.xml">
-<!ENTITY a6cf92bfecc42d3e78ec90e3374de5204 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/phaseInputParseAs_sos.xml">
-<!ENTITY a5935be88bd110375a9eba9e6e86c7a94 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/phasedelay.xml">
-<!ENTITY a9b7c2a03ae8e9c37421764b3cacd0d03 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pmusic.xml">
-<!ENTITY ae7cd9b3e362e6403238b426f5d4e66f2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/poly2ac.xml">
-<!ENTITY ac7b508988d9b5ce4caf4a839a33cc288 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/poly2lsf.xml">
-<!ENTITY a406e803fc36848a82dbdb8a4f1c8e73b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/poly2rc.xml">
-<!ENTITY ac283ed2370a5fa8befd650c10d0804d3 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/polyreduce.xml">
-<!ENTITY a829873041e7f64d54515960b15357158 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/polyscale.xml">
-<!ENTITY a94ca60ef57753fb3c2947cf69fee6ed9 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/polystab.xml">
-<!ENTITY a90bf4aff8dbbe96a984e318706cc9885 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/polyval.xml">
-<!ENTITY a1902521e6d6a61c81ef27742c368ba42 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/postpad.xml">
-<!ENTITY a6fd101ee5f4b2d7e10143f99f3bdfe0f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pow2db.xml">
-<!ENTITY a4604cc64fc7ad80569210f9dc10e182c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/prepad.xml">
-<!ENTITY a81c3f5e91097a90d9f596d5008716528 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/prony.xml">
-<!ENTITY afabea49cc5b6b20b02ac00e437f09be8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulseperiod.xml">
-<!ENTITY a749e4b72b837bb30780cb640c22fc054 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulsesep.xml">
-<!ENTITY ae9541187f61df536094e5784ea182e9a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pulsewidth.xml">
-<!ENTITY a04ce7366f9523e0e7ad633a3a2bee499 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/pwelch.xml">
-<!ENTITY aa09e49720edb879ea3ef2db364ee73f1 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2ac.xml">
-<!ENTITY a4574a37df4babcf83b90a7d7431f826e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2is.xml">
-<!ENTITY a7a61615f5ac08c94a20dc67aafa7b18a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2lar.xml">
-<!ENTITY a18558ec2996091b4259a9ee604f5862d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rc2poly.xml">
-<!ENTITY a8b7be179b6b940f7be126dc0813af511 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rceps.xml">
-<!ENTITY a933cecad3c95cae7b6c55db1e13ebd7a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rcosdesign.xml">
-<!ENTITY a3c0924321e0abdc6b33dd2649581bc26 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rectpuls.xml">
-<!ENTITY a91f6f607f8ad5464f675540e6b26af1a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rectwin.xml">
-<!ENTITY a9b1de0b51c74e419d62d09b422c1e9da SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/residue.xml">
-<!ENTITY a254fd6c4e4ebfbde50a3e5c5df5055a3 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/residued.xml">
-<!ENTITY acfbb776f587a6d6367ef1bd5c76afebf SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/residuez.xml">
-<!ENTITY a7249cd71d879b4cfc78b1a2f1e58fb5c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/risetime.xml">
-<!ENTITY ad8482b56f7676e7d00e81da643463d4d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rlevinson.xml">
-<!ENTITY a9846e7ffc5ee3864df73a6c3640820c7 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rms.xml">
-<!ENTITY abfd06b21a392083854c13fdc7e269872 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rooteig.xml">
-<!ENTITY ae4b4b76d2cf007e09ccd42e66e0bc732 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rootmusic.xml">
-<!ENTITY a9139e78de11d9715f4faa1d1e142b587 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/roundn.xml">
-<!ENTITY ad9e6482c3dd4404d2c0a742af6e1d6df SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/rssq.xml">
-<!ENTITY a54695318c0863086cdbb8bfa43f8f0f0 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sampled2continuous.xml">
-<!ENTITY acce234c3dde18ea80db33a8288f21511 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sawtooth.xml">
-<!ENTITY ab9f82565666cfe12ce9f360b323603cd SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/schtrig.xml">
-<!ENTITY a449712c10c48beda00b1430b591b821d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/schurrc.xml">
-<!ENTITY ae03e3f51657ed7da318191cd4ee284b7 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/seqperiod.xml">
-<!ENTITY a33215eb19eac2a422d50737c2b8f35e2 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sftrans.xml">
-<!ENTITY a15b6a60dbc2e26ac768ceb3e1f7ac0c6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sgolay.xml">
-<!ENTITY a345071423999fb3a8c2ce57383abd524 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/shanwavf.xml">
-<!ENTITY a93d8d5d34a5930f764319de92af6a360 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/shiftdata.xml">
-<!ENTITY acdd3248770244d9c9f54f1fa4989a36c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sigmoid_train.xml">
-<!ENTITY ac161bce0e7b5ac956fb8a82ee7a8c87d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sinetone.xml">
-<!ENTITY a660e1af49205053511e4f680680a4334 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sinewave.xml">
-<!ENTITY a91a9347406da5364c22ad825f7882f6e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/slewrate.xml">
-<!ENTITY a72e53f556b5d445d216a01e4da030e27 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2cell.xml">
-<!ENTITY a3f46683b67f934c326a5df14d7261b91 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2ss.xml">
-<!ENTITY a601402cc73d93b345d26d66003875471 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2tf.xml">
-<!ENTITY ae825350c97cbbbfde8273c20491ee7a3 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sos2zp.xml">
-<!ENTITY ad750f7a9b5a8fdad0471aaecea43a9dd SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/sosbreak.xml">
-<!ENTITY a2e5d8d7ad4f5cf0d33cac47c058b767b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/spectral_adf.xml">
-<!ENTITY afebe7df6fd7a9f8a427910e873dbb013 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/spectral_xdf.xml">
-<!ENTITY afa563c2ddf14d58184a4ddc791fddfe4 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/spencer.xml">
-<!ENTITY af7a09774d193151bae1e3a07442b3d27 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/statelevels.xml">
-<!ENTITY a61b00907db6b76c8774026b44e9ad944 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/stft.xml">
-<!ENTITY aab25c7986cf5668da323a63eeed8d27e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/stmcb.xml">
-<!ENTITY a2f70a9176e26c592d971805512261b97 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/strcmpi.xml">
-<!ENTITY ad4769d3c91264b807b021a52413e4a0d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/strips.xml">
-<!ENTITY ae463a3ebd4a51ccda0f35b19dfd9aaa6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/subspaceMethodsInputPars.xml">
-<!ENTITY afc156e8a80d8c021208008452b889360 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/synthesis.xml">
-<!ENTITY a34a60f6fc7ef0bd9ba31716d97d4c2fe SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tf2sos.xml">
-<!ENTITY a76c15ff51eef13e284daadb5ae971c2d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tf2zp.xml">
-<!ENTITY a5239216519461e5d747735a14283bd5e SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tf2zpk.xml">
-<!ENTITY ac9642c639e9fea3f96af577569a69282 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tfe.xml">
-<!ENTITY a17d99920e90074592303bc80e85fd271 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tfestimate.xml">
-<!ENTITY a4254e42cdf2035240aee6d4544b76e3a SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/triang.xml">
-<!ENTITY a6c9a81d58a2b358ded6b94f80760b2b5 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tripuls.xml">
-<!ENTITY af5e4c6c7c133996396ff7de0c36dd625 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/truth.xml">
-<!ENTITY aba8110760ddf4a0fbf012a7c3608e606 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/tukeywin.xml">
-<!ENTITY a7496b1b92de7a66566b9e3bfd3fddb0c SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/udecode.xml">
-<!ENTITY a638184ccf43adf64605a19be01955c66 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/uencode.xml">
-<!ENTITY ada5e37285ee9f7ad6a53a23be542d092 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/unshiftdata.xml">
-<!ENTITY a7d638ea9d63d3f7bf920caf8f8aa78c6 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/unwrap2.xml">
-<!ENTITY ab4fc8107f54ebc140c2b725f69494fea SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/upfirdn.xml">
-<!ENTITY a31ad04e7c07ef80d3a0673a875debe03 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/upsample.xml">
-<!ENTITY ae92770ba5177bfd6973056996d8f753b SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/upsamplefill.xml">
-<!ENTITY a367009b64e2a117a3e1414042bea8ca0 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/validate_filter_bands.xml">
-<!ENTITY ac6690d8dc619a12e5c17da887677dcc7 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/var.xml">
-<!ENTITY a2b64c65e73fa910047555871858255e8 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/vco.xml">
-<!ENTITY ad191102367019a93f3ad228e8bbad834 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/wconv.xml">
-<!ENTITY ab300792d2cd25a82eb99b9321de5faa7 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/welchwin.xml">
-<!ENTITY a315a574029780ef53b97730acc701cb1 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/wind.xml">
-<!ENTITY a56ab679dc0e5aaffd857b42feed78f79 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/wkeep.xml">
-<!ENTITY ac7dff1985f051e5d7373fb7e6812b50d SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/wrev.xml">
-<!ENTITY a4d46e88ae06719e70be9bde77f3a6914 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/xcorr2.xml">
-<!ENTITY aff99da9c754b8a585a805f66d51ddc88 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/yulewalker.xml">
-<!ENTITY add5ca9e84a9fe70ad80966998128b347 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/zerocrossing.xml">
-<!ENTITY a0eec17a1efe40e08f703219b378301a4 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/zp2sos.xml">
-<!ENTITY a44a375cdf679887939d6020157c1c63f SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/zp2ss.xml">
-<!ENTITY ab3f4ba57a6c03736d4f1ca018bd328c9 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/zp2tf.xml">
-<!ENTITY a81eafcc5183bb071da8b17b4884b65a0 SYSTEM "/home/avinash/GITHUB/FOSSEE-Signal-Processing-Toolbox/help/en_US/zplane.xml">
+<!ENTITY abde79fa86cb52152fd832a22e7585496 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ac2poly.xml">
+<!ENTITY aeaca6aa5549eac7f57f07e5a42beaa75 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ac2rc.xml">
+<!ENTITY a53dcc58e3165d399c410bfc76107b327 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arParEst.xml">
+<!ENTITY aa401775277c5826f658325d704486265 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ar_psd.xml">
+<!ENTITY a0c75243d629b4cb50845884d62c97365 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arburg.xml">
+<!ENTITY a1377e28b6cf27c30f0a19b302a820411 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arch_fit.xml">
+<!ENTITY a2c03102b2c4d7831e5a1893975db4060 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arch_rnd.xml">
+<!ENTITY a5bc99629af1132b3d8f3ab77dfa3dfb9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arch_test.xml">
+<!ENTITY a69a320e643761b93f3567223d27efd2d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arcov.xml">
+<!ENTITY a12250775d983a971a4fcdeaa777fd671 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/arma_rnd.xml">
+<!ENTITY a0dfdfe4232bb5438c40d336041942690 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/armcov.xml">
+<!ENTITY a740c52edf339c72e22d42793c6786750 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/aryule.xml">
+<!ENTITY a87831e30bb63d803bcc18778618f213d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/autoreg_matrix.xml">
+<!ENTITY ae6cd805e75fe7013c8b006ee2838f8a8 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/barthannwin.xml">
+<!ENTITY a91bcbc22acacf3283db03373a34f0d2e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/bartlett.xml">
+<!ENTITY af53f9905c942a380983b82cff37624bf SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/besselap.xml">
+<!ENTITY a053b273e96c3e91d62baf23988e80240 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/besself.xml">
+<!ENTITY a95ec6fce2508f1a9fc56d18f0302bd24 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/bilinear.xml">
+<!ENTITY ab553accc0d85ee4e29e590631cba7e3d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/bitrevorder.xml">
+<!ENTITY ac18397e1009f22a4316cc36722fa87ba SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/blackman.xml">
+<!ENTITY a0e771cf9dd5522d0ebc34acf9f0c4029 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/blackmanharris.xml">
+<!ENTITY a419ba3b4ff12a45fd8abcfdb144105ce SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/blackmannuttall.xml">
+<!ENTITY acff447aa85c20e0b7732ba3357d34798 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/bohmanwin.xml">
+<!ENTITY a68c32991326a2fc79e82b98d7a4f4386 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/boxcar.xml">
+<!ENTITY a65b14400b03af833bcf50627a497310b SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/buffer.xml">
+<!ENTITY acc6382c4938f6ea5e0c78dfdf711db79 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/buttap.xml">
+<!ENTITY aceed3527e93462d2813c78cc99aec067 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/butter.xml">
+<!ENTITY a794a76a724031d3c908727e66075140c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/buttord.xml">
+<!ENTITY acef79a9d2d69ae6fabc3ba30324ce7b2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cceps.xml">
+<!ENTITY a793728e94ae746f8a24561e92ff6df17 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cconv.xml">
+<!ENTITY afa7110f0d29af952a082021d0c23378b SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cell2sos.xml">
+<!ENTITY a59117fbb452b49e84b01d567cefd3c68 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheb.xml">
+<!ENTITY a895e7d95b461a8acf3332e8b5434038e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheb1ap.xml">
+<!ENTITY ab027951886678a3a9620cf4b6dfe414a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheb1ord.xml">
+<!ENTITY a32099997880c824cf5b89511c911c3ce SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheb2ap.xml">
+<!ENTITY af9c1698c0f4ca8240205579da72e2d2a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheb2ord.xml">
+<!ENTITY ad5283a1df8744590177a1aa0a12071cc SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/chebwin.xml">
+<!ENTITY ad5b4cb17752578eb8ccf82c4953de4af SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheby1.xml">
+<!ENTITY aa57622e8fa6701404a2b10095e307cd9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cheby2.xml">
+<!ENTITY a72f47b90a25085f58cfb33ce9511884c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/check.xml">
+<!ENTITY a18707d5290928c840ddac163f0370094 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/chirp.xml">
+<!ENTITY a6eb46d6f5ab751e1c4fca1df8de44714 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/circshift.xml">
+<!ENTITY ad6ce0f7c6535f254ac25c6ec8d5bf5c1 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/clustersegment.xml">
+<!ENTITY ab659b9c0de3ee0bf2f026f90aea56687 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cmorwavf.xml">
+<!ENTITY a92c0e45e79e8bdf238a81edbbaac7fb7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cohere.xml">
+<!ENTITY a8f0e9b4566e692ae84b8ef4ca225db93 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/convmtx.xml">
+<!ENTITY a500ead9fea8bf3a463025a6aeb8a6081 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/corrmtx.xml">
+<!ENTITY a0918e59048f702802252e0380a2801dc SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cplxpair.xml">
+<!ENTITY a07af1322736f14a51ac9b20594b3f0af SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cplxreal.xml">
+<!ENTITY ab27c94bbae0bfbfae5105d7b26c075a1 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cpsd.xml">
+<!ENTITY a539ea89fddf4d6785a09f40796ad1318 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cummax.xml">
+<!ENTITY ac2a3d0beb7bd67c67a12546b9f0e465e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/cummin.xml">
+<!ENTITY a41a5007918e88f663204e3ee27710684 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/db.xml">
+<!ENTITY a9df6961f93f73590e56b7dee0c739200 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/db2pow.xml">
+<!ENTITY a91192289aa9a510aaaaf12e62f1a72a7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/dctmtx.xml">
+<!ENTITY a7f108f95d091329576ad759f772b0c1f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/deconv.xml">
+<!ENTITY a7d177f98a0e4250a423dac98abf0d8d0 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/detrend1.xml">
+<!ENTITY a8451cf3be3f0288b3c359a9e209f6ca2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/dftmtx.xml">
+<!ENTITY aeb88e02e75ef546c21fdb80953a98710 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/digitrevorder.xml">
+<!ENTITY a23d7f306cf545b83ae828fafe34d284f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/diric.xml">
+<!ENTITY a2b00c8b21aeb02770030b43f02ebbf45 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/downsample.xml">
+<!ENTITY aa9550315d464e3042c0f6751e397c8e3 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/dst1.xml">
+<!ENTITY a3b79ea23c28487f46a06f8da56634514 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/durbinlevinson.xml">
+<!ENTITY a939146f8b68fe9acfc1f8452e36c32fa SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/dutycycle.xml">
+<!ENTITY a9313964edc6d5bbc1e1c7689eef3ec70 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ellip.xml">
+<!ENTITY a640fc4fe7ec9252561f794e26c5f15b4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ellipap.xml">
+<!ENTITY a816fe70bb2c047235d785c0bcb0621dd SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ellipord.xml">
+<!ENTITY a1804955918bd32dabf264b9a646eeb7f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/enbw.xml">
+<!ENTITY ad7bac20ef8a6dd2f3b12aee7a8569f26 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/eqtflength.xml">
+<!ENTITY a1fd5a6217d69c4e13b50cf491fadc7ac SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/falltime.xml">
+<!ENTITY ae752f897c261314cca8582fd781b883e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fft1.xml">
+<!ENTITY a7c921472dcfe8818d39ff3db72177462 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fft21.xml">
+<!ENTITY a4f73034a60a14d298f8af9d8067d5f34 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fftconv.xml">
+<!ENTITY acb9643394fce13ed0efa43ab36fd9b67 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fftfilt.xml">
+<!ENTITY a50c57db51a85080628e695fb202ec31e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fftn.xml">
+<!ENTITY a580deb5928d52df5e2acc11a67970470 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fftshift1.xml">
+<!ENTITY a31e4e1fde366a4e57a584366ec9e7beb SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fht.xml">
+<!ENTITY a47be34f16883f2dfe89a8f1c44994a29 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/filter1.xml">
+<!ENTITY a0beb555c36fa323ec601983e79e6cde2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/filter2.xml">
+<!ENTITY a2c4e92693f30fb208ecd702535d566f4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/filternorm.xml">
+<!ENTITY afe985460e1e841d2a44bf50272ad14b4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/filtfilt.xml">
+<!ENTITY ad48de9cb0a66fd9f5616b28651d41ae9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/filtic.xml">
+<!ENTITY a819f1df466fcc06e15a548ee69f7ab72 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/filtord.xml">
+<!ENTITY adcc2fd185356a9df6f1ee6e1c0923f37 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/findpeaks.xml">
+<!ENTITY a7563d94c14e5a127f7d9600d680ff803 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fir1.xml">
+<!ENTITY a17a4b41f0e2007ffc9512e6b938df25d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fir2.xml">
+<!ENTITY a1ab79c4f3a7242a7af791bcc1ab51f82 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/firpmord.xml">
+<!ENTITY a2d0e3aa00614d601c6c29fa948662db6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/firtype.xml">
+<!ENTITY a0c8f306429ccb46983db4f8a6046edbc SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/flattopwin.xml">
+<!ENTITY a6c91b11878690b6a91e7363aebcc2a33 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fractdiff.xml">
+<!ENTITY aa51dc76243483e5d86b74fc217c9d67d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/freqz.xml">
+<!ENTITY ad7cd21ea355a40943eda88fe237d6ea4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fwhm.xml">
+<!ENTITY aea1683fe64275cfad0f12694a3dcc768 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/fwhmjlt.xml">
+<!ENTITY a4632b2673595566692e67b6bc348f1d7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/gauspuls.xml">
+<!ENTITY af686ef6d4591afc0f5b9b53b1bafe9ad SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/gaussdesign.xml">
+<!ENTITY a97670a85bcd2e3e5d8540ddca2b0b4f7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/gaussian.xml">
+<!ENTITY a0533c3f12febcd13b4dd275b406342fe SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/gmonopuls.xml">
+<!ENTITY a93e78c00a20a96d8ea0ca56051cbec87 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/goertzel.xml">
+<!ENTITY a2a5b26a2406e9148b96dc6d7aaac2a6a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/grpdelay.xml">
+<!ENTITY a7e090e7fb21b1fdde0339a08f4546b2c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/h1_z_deriv.xml">
+<!ENTITY abd170aa20edeb635a5c062d2d4cddd97 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/hamming.xml">
+<!ENTITY a515875f33c0d26546d7f802895d670a4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/hann.xml">
+<!ENTITY a75cf87834c6948f9e0e2238509f3e80d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/hanning.xml">
+<!ENTITY a44831bb5485ff1cd028ecfa3a8baf6a9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/hilbert1.xml">
+<!ENTITY a629b7883893bcf5cfc1e22a56a0186d0 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/hurst.xml">
+<!ENTITY aee56743ed1f29fe3f5c3cbbf80fa8863 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/icceps.xml">
+<!ENTITY addef17954c80f2502b62d5e1a6178be4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/idct1.xml">
+<!ENTITY a45456f9c462e40e1ccd236dac9fb65c5 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/idct2.xml">
+<!ENTITY a33fd4f61a83c61df725032b09644490d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/idst1.xml">
+<!ENTITY a95cf8fb765f1838021aa059d2b230031 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ifft1.xml">
+<!ENTITY abfaccbe04ff0b73c1cfa52854b464dfb SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ifft2.xml">
+<!ENTITY a3e19a14e8b4b52a6dd942e933f653d9c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ifftn.xml">
+<!ENTITY a8c26e0792879abbf527d9eda9a293490 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ifftshift1.xml">
+<!ENTITY adce3e10c9fce96e965d4c0fee0bdf53a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ifht.xml">
+<!ENTITY a5c9d67945df5f946d22b1ac8302b8527 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/iirlp2mb.xml">
+<!ENTITY ac6d892a5a1a9711a98fd1dc5eb4478cd SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/impz.xml">
+<!ENTITY a59672688563d9f6656524ca23f94eb5a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/impzlength.xml">
+<!ENTITY a7345fe631033bd28d609842144dfb0d1 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/intfilt.xml">
+<!ENTITY a6f0c29a3186a3448f91c710a1bb63d85 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/inv_residue.xml">
+<!ENTITY ad38218a35166d0dcca6ea860f9e30679 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/invfreq.xml">
+<!ENTITY a49009fd528ec44aa9738f467df7f3308 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/invfreqs.xml">
+<!ENTITY a201c362b93c0bfc2dd06ad187d9e8125 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/invfreqz.xml">
+<!ENTITY a223d54cce194e5c7e063911c773b4b6b SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ipermute.xml">
+<!ENTITY a575701e554519819a1d95f6a786d93c9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/is2rc.xml">
+<!ENTITY ae4ceb727fa9e0bed5407681aeb6a0c49 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/isallpass.xml">
+<!ENTITY aeafabc3ae3aba2fc6e3b1cc6f396eb97 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/isfir.xml">
+<!ENTITY a9da0bcac0afb303df567e460500014bf SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/islinphase.xml">
+<!ENTITY a50169aa17133933cc96b626d43b1a773 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ismaxphase.xml">
+<!ENTITY acf3fec2b5f1ea94611f529513d42e7ef SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/isminphase.xml">
+<!ENTITY a3f32c6cff8f1e487d5d96e81ae97bbac SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/isstable.xml">
+<!ENTITY a1b70db56de3d7406ed42bf36b8254a9b SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/kaiser.xml">
+<!ENTITY a1d125b83c3eea8faf75d27a59deb94b4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/kaiserord.xml">
+<!ENTITY a3f9bc2699cfe830344ee3da9f243ffd0 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/lar2rc.xml">
+<!ENTITY ab2bb39aef5f6605a814894e9d94d56f0 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/latc2tf.xml">
+<!ENTITY a7ef0869a5a2b174c7e9e87ebf59a6461 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/levdown.xml">
+<!ENTITY a7461290e67729b121cb3f6de19eb7240 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/levinson.xml">
+<!ENTITY a1363dd239108239facb73c789ef0244e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/lpc.xml">
+<!ENTITY adbfac245b5dfc7ffd438e5b576bea4ac SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/lsf2poly.xml">
+<!ENTITY aa3dc21aa638ae7d5f60f50ff82fee0c7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/mag2db.xml">
+<!ENTITY ab857b68b5a0bb2c6c057713fa16832b4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/marcumq.xml">
+<!ENTITY ac1168bae13dcf06789fa28fdac62b039 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/medfilt1.xml">
+<!ENTITY af32431c0544f6171a15fc64764337066 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/mexihat.xml">
+<!ENTITY a95796afefc8d8fb050da19e42b458043 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/meyeraux.xml">
+<!ENTITY af66e7778983b6fd868bb11884a726f94 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/midcross.xml">
+<!ENTITY a949178cae11a6052f0d1295f5a30460a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/modulate.xml">
+<!ENTITY a588ab9da9408a76eb2b4e79885923252 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/morlet.xml">
+<!ENTITY a03694e21207462dd7d8d36b4c72b328e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/movingrms.xml">
+<!ENTITY a12aa30a24d28e163fa6110512d3fcf80 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/mpoles.xml">
+<!ENTITY ad078c99fa64a157bb200390dd042b691 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/mscohere.xml">
+<!ENTITY ae03d50c49785c13d62589b7ed0fa3461 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/musicBase.xml">
+<!ENTITY ac05f9e23d2ec5f7193aa52955d682a82 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ncauer.xml">
+<!ENTITY ada8a51d7b8cadc2bd3cfb3fcb830947c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/nnls.xml">
+<!ENTITY a0331c9f50b7a6add119b34465980134f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/nuttallwin.xml">
+<!ENTITY a0b1aceab94728285aeadee5fdeebc80a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/oct_interp.xml">
+<!ENTITY ad68a741983cc929bd0e0f893061738e9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/ols.xml">
+<!ENTITY a0c2b6286889fb06e6907023c57674f04 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/parser.xml">
+<!ENTITY aae5451e28b079574015f09362103e371 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/parzenwin.xml">
+<!ENTITY a0ef7432cd439be60ad301a53ef0f5a16 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pburg.xml">
+<!ENTITY a24221bb213045e6b60f91f26d1225cc7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pchip.xml">
+<!ENTITY a642078ecdae1aa5469d2117c5d7bb826 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pchips.xml">
+<!ENTITY a2263a464309fe90f7869db0f1c71dc14 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/peak2peak.xml">
+<!ENTITY aaa211c1be72a199a0bc1fa7d0feb39b5 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/peak2rms.xml">
+<!ENTITY ad7003e2519d5d9c4d39e2b3b9b9e9f68 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pei_tseng_notch.xml">
+<!ENTITY a433d3e02e08e742973dd96ba049d74f4 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/peig.xml">
+<!ENTITY a06f9618db1533c250e0c64ea4ad3a3bb SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/periodogram.xml">
+<!ENTITY a974f035e0c4fef6a9e0a7fa5a7082bce SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/phaseInputParseAs_ab.xml">
+<!ENTITY a668ec7d66e2490e920ed2ab99db0765c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/phaseInputParseAs_sos.xml">
+<!ENTITY a7116b925decc2277619c6cd841d5a1c6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/phasedelay.xml">
+<!ENTITY ab7eab36aca9ca912f74c30c77a9424d7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pmusic.xml">
+<!ENTITY a57c5f10ff362f949340af4c75416b0e8 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/poly2ac.xml">
+<!ENTITY a44155b9069d150d8ed193db659e057ad SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/poly2lsf.xml">
+<!ENTITY a0120e5ea38c4d2e5125c26938fcdc6ca SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/poly2rc.xml">
+<!ENTITY ad5093996647aa7333241a0e2a47b5683 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/polyreduce.xml">
+<!ENTITY a09aff4320d593fad7b69c9410281f15f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/polyscale.xml">
+<!ENTITY abce11e32262ab052babd711f88aaefe6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/polystab.xml">
+<!ENTITY afc3c7b5baa3538dea48f220b0f8f3b94 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/polyval.xml">
+<!ENTITY ae66101ad5beaeb92e71545e1b27de589 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/postpad.xml">
+<!ENTITY a41bae4c7d6aeb86ef6ca8da3953e6649 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pow2db.xml">
+<!ENTITY a6d4e7c4d807115d10f96283941075024 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/prepad.xml">
+<!ENTITY a8ac1a7a7f77ba61f00fae7578aba4f32 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/prony.xml">
+<!ENTITY aae9044a3100debb4d513df5831d993aa SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pulseperiod.xml">
+<!ENTITY a9a90c507d0050cbc36bda0dfbe3126e8 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pulsesep.xml">
+<!ENTITY a8fa13182d2ebf2c2e9687e5f3e0a3023 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pulsewidth.xml">
+<!ENTITY abfd87cf1d60ba779e83e43bc4e2063d2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/pwelch.xml">
+<!ENTITY a182e5a7a5db1d78cb52904d4cf33ab2f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rc2ac.xml">
+<!ENTITY ac6e216823f1c26fea1447de3a8bc3aca SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rc2is.xml">
+<!ENTITY abfd870bde4554d414b4182763c84c534 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rc2lar.xml">
+<!ENTITY a2a23c86fa6c9ffe26c25b3fc1faf09d8 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rc2poly.xml">
+<!ENTITY a478308954169a08317f39dd155c722d7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rceps.xml">
+<!ENTITY aeee0d9f1df6c47654819e468678f6512 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rcosdesign.xml">
+<!ENTITY a1a6e8fc42f50b803c271f3a705fed822 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rectpuls.xml">
+<!ENTITY af977aa475424df23b4293f59e565466d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rectwin.xml">
+<!ENTITY a6effab0a2cba8b8e15c9aa7788c23fec SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/residue.xml">
+<!ENTITY a8ce361a1cc85bd2a087ce9c91fe364d9 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/residued.xml">
+<!ENTITY ac69b54e8ac850e1570116ef2f73ead2d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/residuez.xml">
+<!ENTITY a15a996825a16fcf7e6354b689823d3d3 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/risetime.xml">
+<!ENTITY aaebad5ab3e06f47f91d5b9b3febc3de6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rlevinson.xml">
+<!ENTITY a08880437c3333c7f958157beeac467c0 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rms.xml">
+<!ENTITY a985eb30de6565ebdcd9d1764e684cbc3 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rooteig.xml">
+<!ENTITY ae95c60fb83d8dcb331d232f329b20439 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rootmusic.xml">
+<!ENTITY a96116be93f4126c4d46c5a3e615df390 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/roundn.xml">
+<!ENTITY a51952b56e46b71a67ed046b6de3e159e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/rssq.xml">
+<!ENTITY a0856e31e5bad687a7f8757b9d6d676aa SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sampled2continuous.xml">
+<!ENTITY ac2af8eacf368c152528526880decff3f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sawtooth.xml">
+<!ENTITY a3170ca193832a2b5cf16c227fe8b3265 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/schtrig.xml">
+<!ENTITY a60ab3da6516ae311ec755ee2c8b3ef8a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/schurrc.xml">
+<!ENTITY a71aeca52d69c793ef6c3a9d8f96f9d40 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/seqperiod.xml">
+<!ENTITY a435cbac49d990f5515eeab161f13ec74 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sftrans.xml">
+<!ENTITY ad07cf4f8886f6ff3441c695b084a62b1 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sgolay.xml">
+<!ENTITY a728ca40087fafadc075805295b9271f7 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/shanwavf.xml">
+<!ENTITY a61b0fac2d1f2abab7a45577573a49275 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/shiftdata.xml">
+<!ENTITY ad0a355024c8d6a1ef0bbdd4cbba67dc5 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sigmoid_train.xml">
+<!ENTITY a87cf98749ff11c7e43ad94b9a12876fa SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/signal_czt.xml">
+<!ENTITY a803bab5f285706604afe518c3bd1859d SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/signal_levin.xml">
+<!ENTITY a0c74e4e5a62f0fd82655311469416010 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sinetone.xml">
+<!ENTITY a91f005513c9f0eb96721fd95e791ca89 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sinewave.xml">
+<!ENTITY a2436fc0dbdf9b40a33cc4a0161ad9333 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/slewrate.xml">
+<!ENTITY afc1920e7b1cb33d05769f4b302648940 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sos2cell.xml">
+<!ENTITY ae684bf64d225b0dda99fd7c9a4e48b49 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sos2ss.xml">
+<!ENTITY a93efd13c668b8d3e7da6a73a761a2650 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sos2tf.xml">
+<!ENTITY a3586ff2d4ecee12c7973539eb91344a6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sos2zp.xml">
+<!ENTITY a8a7235c936c2166c925a7c68edbcf711 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/sosbreak.xml">
+<!ENTITY a6cb99fb26ce8e61d42e3a5f413bdb932 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/spectral_adf.xml">
+<!ENTITY a79d1b382a0483c7ab8ca5c6f58db9ffd SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/spectral_xdf.xml">
+<!ENTITY a8fcdb9fb94f8dd142693149ab0c61fdd SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/spencer.xml">
+<!ENTITY a44af67dbb790b33cbb2f4aace74b10d1 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/statelevels.xml">
+<!ENTITY acf2be0ec16bd3d01c3be923d8a10d4df SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/stft.xml">
+<!ENTITY ab413c8f8dd474add6cda33509cc5921b SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/stmcb.xml">
+<!ENTITY aea3de966ddccaf6f983891588eb8a2fa SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/strcmpi.xml">
+<!ENTITY a5950761c3910550a73aee709827ffeab SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/strips.xml">
+<!ENTITY a0411f7c6debef6110f5d437c4c6343ad SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/subspaceMethodsInputPars.xml">
+<!ENTITY ae5a3d9f0d8bb3bdecfe8e3cc9228c729 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/synthesis.xml">
+<!ENTITY a485d14f8fdced359237018a9341d3ea3 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tf2sos.xml">
+<!ENTITY a699589db63b8de069c1122e0898cb8a2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tf2zp.xml">
+<!ENTITY afdb32655f6419243d1a64cdd394745fe SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tf2zpk.xml">
+<!ENTITY a4eedd44c6a6d9ac1344939e6183a8c77 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tfe.xml">
+<!ENTITY a93333b14da20ecf7a1b89dcee3681aac SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tfestimate.xml">
+<!ENTITY a0e385c38d8553623b4119c66346e4b5f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/triang.xml">
+<!ENTITY ae62bf772e8e08f7876d63193b7f9e749 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tripuls.xml">
+<!ENTITY a4876820682e1d327bcda24046ddb0028 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/truth.xml">
+<!ENTITY a6bf089b05a3578a211898d05c90f38c8 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/tukeywin.xml">
+<!ENTITY a95828b7714156f8e63bbd6443710c17e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/udecode.xml">
+<!ENTITY ae905548e1711943d8ed997e51d9f3b32 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/uencode.xml">
+<!ENTITY ac9719fc9ecec38b82d89bbf4c70040d8 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/unshiftdata.xml">
+<!ENTITY a882f47c312162ad703c06e3e66bc37d2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/unwrap2.xml">
+<!ENTITY a9ef62f6c20fbd86fba2a1f419bd2488e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/upfirdn.xml">
+<!ENTITY abe98003796f420ebd62b049e1df00909 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/upsample.xml">
+<!ENTITY a55cd40f0d8d9551df35e4c3d63e12aa2 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/upsamplefill.xml">
+<!ENTITY a189b3f162c94a51d765bd890a9173a8a SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/validate_filter_bands.xml">
+<!ENTITY a1a914841694a775a1345e33ed376954c SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/var.xml">
+<!ENTITY a01aa266d21524e8d1f945b9745ef48c6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/vco.xml">
+<!ENTITY a6d658ceed17d9221887e917642f5a474 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/wconv.xml">
+<!ENTITY a1ebefda62cf004fdd8f158a24f0bf5ac SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/welchwin.xml">
+<!ENTITY a94f177c92acf7060fa36925c91ee88bd SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/wind.xml">
+<!ENTITY a541a32dd06e54ad03ffa1b1718857de6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/wkeep.xml">
+<!ENTITY a96a71dbdd5146a881aa8d97109a4e2b6 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/wrev.xml">
+<!ENTITY aa2ecc1cffb9495b4156a77b6253c1ce0 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/xcorr2.xml">
+<!ENTITY a6bb839395ac820f4ec54101ebd0dfd46 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/yulewalker.xml">
+<!ENTITY a97d7d884100172c15f0e54828d1a984f SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/zerocrossing.xml">
+<!ENTITY aa34e16de95eb66103fe0df3da5477174 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/zp2sos.xml">
+<!ENTITY a8b6ae9822c1d84da6cca264dd95b4268 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/zp2ss.xml">
+<!ENTITY abfeed02b463b3a7c1e9ddfae5833dd41 SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/zp2tf.xml">
+<!ENTITY ad47a0c4a300f7c5c0aa7573f9683f11e SYSTEM "/home/avinash/GITHUB/release_for_6.1+/help/en_US/zplane.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -278,270 +278,270 @@
     <title>FOSSEE_Signal_Processing_Toolbox</title>
   </info>
 
-<part xml:id='section_81eb9226da11c75dd517d52f20235689'>
+<part xml:id='section_3764fe5983c9491463a1d1ea935e80f1'>
 <title>FOSSEE_Signal_Processing_Toolbox</title>
-&abb1b10096115e1bcf619b219926165d6;
-&a0d382c14ea2f3357071878fe21c98090;
-&a00bc39443c16c7917537f93863c77d50;
-&af4406b567071f4ff4f2995754fa2187b;
-&a00b6683f824c6e3735743bdae664293c;
-&a4bda2c39f90349f29582d12e03ce5885;
-&a80bec787ae804cb0d5414131fdca6b6a;
-&a0554d8f2d5fc45d2ba20076f4f98cb97;
-&afa5a96784e53335b462a7dcfe587936e;
-&a10590951a18ed13119a8d70988c3af9e;
-&a0cd9a79d575bdf872c709539efe87b71;
-&a3d3a8804195d5f92d18102d762bd1862;
-&af835e4977ce38c6b1009f00053442692;
-&a858f0fc57bbed1f11edb69ff04d54f51;
-&ad097c4541b0ec40ffe50f6e7b0051889;
-&acf6eddd873d4cfb0b13105658c7358ef;
-&ac0e0d6ad4632ed5be8b4e511aeb2ce88;
-&ae2dc7b46602be37e4e75a691968067ef;
-&a8fad4dde54e1b248700a7bfe93169ccd;
-&ab1a78226adcbfc157a6204cd598d9be1;
-&adfdcccee02d518b631c11101d630e64c;
-&a3d346e1812f9c811709785ae5eac1b59;
-&a488166551be15f13252e9463333a5043;
-&ae508615c3fca483570dc41705ef3c499;
-&ad7395e82b4f1be991f192528c21272d0;
-&aa6cd12326adaab27487fadb5f7f51c7b;
-&a8562289e8d8d647c6d5feb777fe8e10e;
-&a5485169521fbbd0f82564ea54ba8865a;
-&aefaf2f22850e710c28cfcdfe4d1e86c2;
-&ab3d2aaeb5fb24c24579dfe7a28555969;
-&a60b0ee818755c39b8aee4f261a872b45;
-&aedcd3d17b85aa1d3cd1a051e69b67959;
-&ab9a44443d6a640d9a9e6aa26b8a9f998;
-&a960b6cf31079f8e319e5be49e4e2bd8e;
-&afb2b0f9638001336fbeaa9f6c7b865f5;
-&ad6904690980e1a7591e4ce625902d465;
-&aea713c4371d40a7563f1bf161a7b1515;
-&a6120f4408fa1fd2ba779889deee26293;
-&a48b183271d23ba47b2d433231bed5841;
-&a6bf8920b252bc26871080df673322cc2;
-&a8cf285b6d747266782b11de7a4873bcc;
-&aebffde40b122ddffa3e96a11a62a4bb4;
-&a4c4c009a9bb9967ff46ff4cb67c41e3b;
-&af4df1371b13b509caf0d8b175047f696;
-&ae4e1e2eb62e9458b1cab125dbba97824;
-&a9296567a3f9098ed5e58e7a9b8cfe2ca;
-&adb7dcaeccfbd0a03e040643ed1386bc9;
-&adaa376a57abbd358af9aae78083a028a;
-&a685c028417a33ca0ad8e9f773ee6d382;
-&a3785725b8fa20c1b652d495f3bf6675d;
-&aae1a34bef1efc3f7cf544938ae2bb143;
-&a187ce77b437d10da0b6b49cb6b8ea23f;
-&a6d82f9bba39bee4acfcb0dc92418f930;
-&ad29b1d06f0c91212c82b298f73401e9a;
-&a58d2a1b606f70995ab94f40bb0b363ee;
-&a6e77fe89f7b1f5e95335879d8712119a;
-&a3507cc8c28403c1bac4198b8bc010c07;
-&ae0ebb8d95da815ba441e0dc045bf1bde;
-&af6405f5d72725f6abaee9bc810a9cbe9;
-&a90b75cad0018b6731cdea49de991bb94;
-&a8e2ace6a1d9abb468c07636ba6ecaa8c;
-&a37c3df4affce1a1aae8cbd8dfb5ba5fe;
-&a8099045b22493e3889a6fa6855ec5d5f;
-&aa39e74a284973e56e3e5894f210fd650;
-&a59b96c67ca8198fb03420cb869e22d14;
-&abee96ac93b7676646c218e5771ed2a1a;
-&af62422b5565b4e183fe18c0fc9f451ef;
-&a682e911b68eccb56aa3b92fa5aceaa48;
-&ad1ee867d6c1d132f082cd0c918f010db;
-&a0525c10a95ae3f5b58f99caea526a8d5;
-&afc9f1aab891cd293b3e8013ce44ab599;
-&a6c35399565f2a4fe0b6f7c6dd07d7039;
-&a7e30037599a4cf1601e5b4adbd19c0a1;
-&adb606c2d97d464e7ee8d8d2aa3ab41fe;
-&a0fa0c521c5e24013967810b1ade5306a;
-&a8de4b0ffe5695c4e62f0b51657dbd481;
-&af989466e6ecea0570a2ed90f124c1abd;
-&a757d7163ee2a11078ad2721df4313feb;
-&a7b99b553c1bbe5939270fe358bc39da5;
-&a3706b0020f30030832e6c3f8296a9e07;
-&aad972a74419134a1e5d280fde6cdc914;
-&af3eeffb2f07a97b7932b6046984f94db;
-&a7c2d8591cb05d3cb481fc4bc22bfd4a0;
-&ab28791a0fd417a8955b014b67858447f;
-&a88d8113468977bd91aae600b841c1c99;
-&aa2e94b06c33b7457c79b8634ca0c0679;
-&a2fe0a525337b19f6166c9646319e04af;
-&ae444ea3775b106cbf5778fa9dcb796c2;
-&ae4a97834ee770316371f2dbfb845665c;
-&ad04715e11222b14c9ff2db1a5f7ffbbb;
-&a5b76d9cabac5042f0b7aad790c6665f8;
-&a0fe17887e0e4ff20d78bf6382b75de12;
-&a97b31968da656364c396e199c4a1569f;
-&a24da4ce7e1d059f6a30f71ffa31ec5cc;
-&a73ad2976468122bac113ccdf303e772c;
-&a82eb64a88dab08aca578f8d58741e309;
-&ae4a2a598802f61c8b9abf115b1b019a6;
-&a93621e44331b1e104985af893b6ac132;
-&aaa0bf1f8af764091c7b5a137aa43441b;
-&aa3d430d5fd5063fd9051c986cef148f8;
-&a37205d267843c202b6be4f2b9f023418;
-&a9a1decc24dc92eeb7710d9a741bc1f2b;
-&af0baa8376bd12dc1513da0223a6ec5bf;
-&ac49a0f5c340715d876a5b6cfe98e4548;
-&afe8ac32474038b2091cb30164beed5ba;
-&ad8f4079ef2fd48448f59b57015f44f77;
-&abf80c8fcfe81c288a38a63d6b3809af8;
-&af1508d70136d3cbade265d0cdf8bc78d;
-&adaca6cce335f38965a3f98c416910801;
-&af08d0105d442cd96e513fed88b15dfa2;
-&a93400bcd8e2a96e7080ff615bcdb3f4c;
-&a4f3c91b021f61bded1c0fb26874c495a;
-&ac32f5074e7191246fd277c786080347b;
-&aacfc3ff01771fc51fa37f6c254749500;
-&a5e86c19224d97f4f75cf9429940bc175;
-&a3579c35ba2fd8ac1be734a908a1af879;
-&a93f0fb473f5141df51a786b5d38aa508;
-&af8ffe1b0871c90316ef18612534e536f;
-&ad202666e3cc0ff4b023dfbef8160b3d4;
-&adf03a19e2b85ea26aaf45bc469bd21b8;
-&aa00cfd449bbb75de920cdd65cec9c433;
-&adb16c1083d69cefd62535f28bfe855b9;
-&a302d5d8e14f51aa8cd16302075abbd78;
-&a5d1db37962ba7d3ecf28d50f92b497c9;
-&aedcfdbb461aec298c3f97b6b6dc4ce55;
-&af26f2f980446d3611d15deb526f5944f;
-&a4718d414342da3902ca67ed905fb7438;
-&a95fcfbe479b5ea23754f11b64a99946d;
-&a72922d608f5693ad85d3fd2a87baed7a;
-&a405fc39b90e09f8cca0ed4d1a168588d;
-&a3d7c3f5208e3ae68ced85eca5c83633b;
-&a90155d051b6e87e166c9418dfcea0e20;
-&aee90ed0d141f1af9bea86b89da569e8b;
-&ae423231ac8e9abba2c9d7845b6216e09;
-&a851baa7d17e4580443947f495566cc2a;
-&ab9d6f77a61967e9530a9c1b10ed663f8;
-&a5f3ad7662a83f978a6fa9aa83d7f78d6;
-&aa36872454f3f7e23f67feffb5d0b923a;
-&a78987fbdfc9fdcf50eba7d6227c325b7;
-&a750c5f572e966fffa660267350770b37;
-&abde48fe850d7460c098f2a9abf3429b6;
-&aea5aebe42b6e7a67e9f0da9106a40346;
-&a4bcb97e825a8722b24c63f89d7db941c;
-&ace6274598bff47ed8907cebfaaaa5175;
-&acc4db2b4bc158f9405903fcb84b8ea19;
-&a22fd2eb6f0dabf249204c89ac52865d3;
-&aa4ca2623d4bcea73d8756ec030edcbd2;
-&a8b0912f63de744b4e64ee3af5b40eb59;
-&a4305db01bf825357d199dfe42aff1fe2;
-&a6decf203562459c46fceff5783f0908b;
-&a29cb6b62ef8197b4269d4a2d520f55f3;
-&af91210d527522fd12c386f93eb83b189;
-&a30a22a4a2c9ef9cc270810384a664d08;
-&a8c1a712a6265bfef3e0d9b69926fbd78;
-&a93450aeea19ec9c0bd676c5a18aa7a7d;
-&a33a50281f888b086325cea4860b6a133;
-&a86b9f6880f233db8b828a1a641ffe90b;
-&a2beb4176616658993d1aa650c322c3ba;
-&a22a08720f333296f40d11e6b319cb739;
-&ae9368fba7d115d2ee9f01f68c6b51bea;
-&af7d087b3e52bd875d3a82624d4deabea;
-&ab165886e1dc53c7d6fecf3d36e6a758e;
-&afc106595dded4441598dc9d2e80ca2f5;
-&a2f7b27b4ac56d6f24a499ec2cc3cb71d;
-&ace0c3dcf39226bb7fe02eb5568d23426;
-&af9294c31c32f1dbeb5f1527182bd85ae;
-&ade6f311a3a6914e714a64233ca387619;
-&a11c1cdcd1e4a6430add27a6c5bcb1ab6;
-&a6cf92bfecc42d3e78ec90e3374de5204;
-&a5935be88bd110375a9eba9e6e86c7a94;
-&a9b7c2a03ae8e9c37421764b3cacd0d03;
-&ae7cd9b3e362e6403238b426f5d4e66f2;
-&ac7b508988d9b5ce4caf4a839a33cc288;
-&a406e803fc36848a82dbdb8a4f1c8e73b;
-&ac283ed2370a5fa8befd650c10d0804d3;
-&a829873041e7f64d54515960b15357158;
-&a94ca60ef57753fb3c2947cf69fee6ed9;
-&a90bf4aff8dbbe96a984e318706cc9885;
-&a1902521e6d6a61c81ef27742c368ba42;
-&a6fd101ee5f4b2d7e10143f99f3bdfe0f;
-&a4604cc64fc7ad80569210f9dc10e182c;
-&a81c3f5e91097a90d9f596d5008716528;
-&afabea49cc5b6b20b02ac00e437f09be8;
-&a749e4b72b837bb30780cb640c22fc054;
-&ae9541187f61df536094e5784ea182e9a;
-&a04ce7366f9523e0e7ad633a3a2bee499;
-&aa09e49720edb879ea3ef2db364ee73f1;
-&a4574a37df4babcf83b90a7d7431f826e;
-&a7a61615f5ac08c94a20dc67aafa7b18a;
-&a18558ec2996091b4259a9ee604f5862d;
-&a8b7be179b6b940f7be126dc0813af511;
-&a933cecad3c95cae7b6c55db1e13ebd7a;
-&a3c0924321e0abdc6b33dd2649581bc26;
-&a91f6f607f8ad5464f675540e6b26af1a;
-&a9b1de0b51c74e419d62d09b422c1e9da;
-&a254fd6c4e4ebfbde50a3e5c5df5055a3;
-&acfbb776f587a6d6367ef1bd5c76afebf;
-&a7249cd71d879b4cfc78b1a2f1e58fb5c;
-&ad8482b56f7676e7d00e81da643463d4d;
-&a9846e7ffc5ee3864df73a6c3640820c7;
-&abfd06b21a392083854c13fdc7e269872;
-&ae4b4b76d2cf007e09ccd42e66e0bc732;
-&a9139e78de11d9715f4faa1d1e142b587;
-&ad9e6482c3dd4404d2c0a742af6e1d6df;
-&a54695318c0863086cdbb8bfa43f8f0f0;
-&acce234c3dde18ea80db33a8288f21511;
-&ab9f82565666cfe12ce9f360b323603cd;
-&a449712c10c48beda00b1430b591b821d;
-&ae03e3f51657ed7da318191cd4ee284b7;
-&a33215eb19eac2a422d50737c2b8f35e2;
-&a15b6a60dbc2e26ac768ceb3e1f7ac0c6;
-&a345071423999fb3a8c2ce57383abd524;
-&a93d8d5d34a5930f764319de92af6a360;
-&acdd3248770244d9c9f54f1fa4989a36c;
-&ac161bce0e7b5ac956fb8a82ee7a8c87d;
-&a660e1af49205053511e4f680680a4334;
-&a91a9347406da5364c22ad825f7882f6e;
-&a72e53f556b5d445d216a01e4da030e27;
-&a3f46683b67f934c326a5df14d7261b91;
-&a601402cc73d93b345d26d66003875471;
-&ae825350c97cbbbfde8273c20491ee7a3;
-&ad750f7a9b5a8fdad0471aaecea43a9dd;
-&a2e5d8d7ad4f5cf0d33cac47c058b767b;
-&afebe7df6fd7a9f8a427910e873dbb013;
-&afa563c2ddf14d58184a4ddc791fddfe4;
-&af7a09774d193151bae1e3a07442b3d27;
-&a61b00907db6b76c8774026b44e9ad944;
-&aab25c7986cf5668da323a63eeed8d27e;
-&a2f70a9176e26c592d971805512261b97;
-&ad4769d3c91264b807b021a52413e4a0d;
-&ae463a3ebd4a51ccda0f35b19dfd9aaa6;
-&afc156e8a80d8c021208008452b889360;
-&a34a60f6fc7ef0bd9ba31716d97d4c2fe;
-&a76c15ff51eef13e284daadb5ae971c2d;
-&a5239216519461e5d747735a14283bd5e;
-&ac9642c639e9fea3f96af577569a69282;
-&a17d99920e90074592303bc80e85fd271;
-&a4254e42cdf2035240aee6d4544b76e3a;
-&a6c9a81d58a2b358ded6b94f80760b2b5;
-&af5e4c6c7c133996396ff7de0c36dd625;
-&aba8110760ddf4a0fbf012a7c3608e606;
-&a7496b1b92de7a66566b9e3bfd3fddb0c;
-&a638184ccf43adf64605a19be01955c66;
-&ada5e37285ee9f7ad6a53a23be542d092;
-&a7d638ea9d63d3f7bf920caf8f8aa78c6;
-&ab4fc8107f54ebc140c2b725f69494fea;
-&a31ad04e7c07ef80d3a0673a875debe03;
-&ae92770ba5177bfd6973056996d8f753b;
-&a367009b64e2a117a3e1414042bea8ca0;
-&ac6690d8dc619a12e5c17da887677dcc7;
-&a2b64c65e73fa910047555871858255e8;
-&ad191102367019a93f3ad228e8bbad834;
-&ab300792d2cd25a82eb99b9321de5faa7;
-&a315a574029780ef53b97730acc701cb1;
-&a56ab679dc0e5aaffd857b42feed78f79;
-&ac7dff1985f051e5d7373fb7e6812b50d;
-&a4d46e88ae06719e70be9bde77f3a6914;
-&aff99da9c754b8a585a805f66d51ddc88;
-&add5ca9e84a9fe70ad80966998128b347;
-&a0eec17a1efe40e08f703219b378301a4;
-&a44a375cdf679887939d6020157c1c63f;
-&ab3f4ba57a6c03736d4f1ca018bd328c9;
-&a81eafcc5183bb071da8b17b4884b65a0;
+&abde79fa86cb52152fd832a22e7585496;
+&aeaca6aa5549eac7f57f07e5a42beaa75;
+&a53dcc58e3165d399c410bfc76107b327;
+&aa401775277c5826f658325d704486265;
+&a0c75243d629b4cb50845884d62c97365;
+&a1377e28b6cf27c30f0a19b302a820411;
+&a2c03102b2c4d7831e5a1893975db4060;
+&a5bc99629af1132b3d8f3ab77dfa3dfb9;
+&a69a320e643761b93f3567223d27efd2d;
+&a12250775d983a971a4fcdeaa777fd671;
+&a0dfdfe4232bb5438c40d336041942690;
+&a740c52edf339c72e22d42793c6786750;
+&a87831e30bb63d803bcc18778618f213d;
+&ae6cd805e75fe7013c8b006ee2838f8a8;
+&a91bcbc22acacf3283db03373a34f0d2e;
+&af53f9905c942a380983b82cff37624bf;
+&a053b273e96c3e91d62baf23988e80240;
+&a95ec6fce2508f1a9fc56d18f0302bd24;
+&ab553accc0d85ee4e29e590631cba7e3d;
+&ac18397e1009f22a4316cc36722fa87ba;
+&a0e771cf9dd5522d0ebc34acf9f0c4029;
+&a419ba3b4ff12a45fd8abcfdb144105ce;
+&acff447aa85c20e0b7732ba3357d34798;
+&a68c32991326a2fc79e82b98d7a4f4386;
+&a65b14400b03af833bcf50627a497310b;
+&acc6382c4938f6ea5e0c78dfdf711db79;
+&aceed3527e93462d2813c78cc99aec067;
+&a794a76a724031d3c908727e66075140c;
+&acef79a9d2d69ae6fabc3ba30324ce7b2;
+&a793728e94ae746f8a24561e92ff6df17;
+&afa7110f0d29af952a082021d0c23378b;
+&a59117fbb452b49e84b01d567cefd3c68;
+&a895e7d95b461a8acf3332e8b5434038e;
+&ab027951886678a3a9620cf4b6dfe414a;
+&a32099997880c824cf5b89511c911c3ce;
+&af9c1698c0f4ca8240205579da72e2d2a;
+&ad5283a1df8744590177a1aa0a12071cc;
+&ad5b4cb17752578eb8ccf82c4953de4af;
+&aa57622e8fa6701404a2b10095e307cd9;
+&a72f47b90a25085f58cfb33ce9511884c;
+&a18707d5290928c840ddac163f0370094;
+&a6eb46d6f5ab751e1c4fca1df8de44714;
+&ad6ce0f7c6535f254ac25c6ec8d5bf5c1;
+&ab659b9c0de3ee0bf2f026f90aea56687;
+&a92c0e45e79e8bdf238a81edbbaac7fb7;
+&a8f0e9b4566e692ae84b8ef4ca225db93;
+&a500ead9fea8bf3a463025a6aeb8a6081;
+&a0918e59048f702802252e0380a2801dc;
+&a07af1322736f14a51ac9b20594b3f0af;
+&ab27c94bbae0bfbfae5105d7b26c075a1;
+&a539ea89fddf4d6785a09f40796ad1318;
+&ac2a3d0beb7bd67c67a12546b9f0e465e;
+&a41a5007918e88f663204e3ee27710684;
+&a9df6961f93f73590e56b7dee0c739200;
+&a91192289aa9a510aaaaf12e62f1a72a7;
+&a7f108f95d091329576ad759f772b0c1f;
+&a7d177f98a0e4250a423dac98abf0d8d0;
+&a8451cf3be3f0288b3c359a9e209f6ca2;
+&aeb88e02e75ef546c21fdb80953a98710;
+&a23d7f306cf545b83ae828fafe34d284f;
+&a2b00c8b21aeb02770030b43f02ebbf45;
+&aa9550315d464e3042c0f6751e397c8e3;
+&a3b79ea23c28487f46a06f8da56634514;
+&a939146f8b68fe9acfc1f8452e36c32fa;
+&a9313964edc6d5bbc1e1c7689eef3ec70;
+&a640fc4fe7ec9252561f794e26c5f15b4;
+&a816fe70bb2c047235d785c0bcb0621dd;
+&a1804955918bd32dabf264b9a646eeb7f;
+&ad7bac20ef8a6dd2f3b12aee7a8569f26;
+&a1fd5a6217d69c4e13b50cf491fadc7ac;
+&ae752f897c261314cca8582fd781b883e;
+&a7c921472dcfe8818d39ff3db72177462;
+&a4f73034a60a14d298f8af9d8067d5f34;
+&acb9643394fce13ed0efa43ab36fd9b67;
+&a50c57db51a85080628e695fb202ec31e;
+&a580deb5928d52df5e2acc11a67970470;
+&a31e4e1fde366a4e57a584366ec9e7beb;
+&a47be34f16883f2dfe89a8f1c44994a29;
+&a0beb555c36fa323ec601983e79e6cde2;
+&a2c4e92693f30fb208ecd702535d566f4;
+&afe985460e1e841d2a44bf50272ad14b4;
+&ad48de9cb0a66fd9f5616b28651d41ae9;
+&a819f1df466fcc06e15a548ee69f7ab72;
+&adcc2fd185356a9df6f1ee6e1c0923f37;
+&a7563d94c14e5a127f7d9600d680ff803;
+&a17a4b41f0e2007ffc9512e6b938df25d;
+&a1ab79c4f3a7242a7af791bcc1ab51f82;
+&a2d0e3aa00614d601c6c29fa948662db6;
+&a0c8f306429ccb46983db4f8a6046edbc;
+&a6c91b11878690b6a91e7363aebcc2a33;
+&aa51dc76243483e5d86b74fc217c9d67d;
+&ad7cd21ea355a40943eda88fe237d6ea4;
+&aea1683fe64275cfad0f12694a3dcc768;
+&a4632b2673595566692e67b6bc348f1d7;
+&af686ef6d4591afc0f5b9b53b1bafe9ad;
+&a97670a85bcd2e3e5d8540ddca2b0b4f7;
+&a0533c3f12febcd13b4dd275b406342fe;
+&a93e78c00a20a96d8ea0ca56051cbec87;
+&a2a5b26a2406e9148b96dc6d7aaac2a6a;
+&a7e090e7fb21b1fdde0339a08f4546b2c;
+&abd170aa20edeb635a5c062d2d4cddd97;
+&a515875f33c0d26546d7f802895d670a4;
+&a75cf87834c6948f9e0e2238509f3e80d;
+&a44831bb5485ff1cd028ecfa3a8baf6a9;
+&a629b7883893bcf5cfc1e22a56a0186d0;
+&aee56743ed1f29fe3f5c3cbbf80fa8863;
+&addef17954c80f2502b62d5e1a6178be4;
+&a45456f9c462e40e1ccd236dac9fb65c5;
+&a33fd4f61a83c61df725032b09644490d;
+&a95cf8fb765f1838021aa059d2b230031;
+&abfaccbe04ff0b73c1cfa52854b464dfb;
+&a3e19a14e8b4b52a6dd942e933f653d9c;
+&a8c26e0792879abbf527d9eda9a293490;
+&adce3e10c9fce96e965d4c0fee0bdf53a;
+&a5c9d67945df5f946d22b1ac8302b8527;
+&ac6d892a5a1a9711a98fd1dc5eb4478cd;
+&a59672688563d9f6656524ca23f94eb5a;
+&a7345fe631033bd28d609842144dfb0d1;
+&a6f0c29a3186a3448f91c710a1bb63d85;
+&ad38218a35166d0dcca6ea860f9e30679;
+&a49009fd528ec44aa9738f467df7f3308;
+&a201c362b93c0bfc2dd06ad187d9e8125;
+&a223d54cce194e5c7e063911c773b4b6b;
+&a575701e554519819a1d95f6a786d93c9;
+&ae4ceb727fa9e0bed5407681aeb6a0c49;
+&aeafabc3ae3aba2fc6e3b1cc6f396eb97;
+&a9da0bcac0afb303df567e460500014bf;
+&a50169aa17133933cc96b626d43b1a773;
+&acf3fec2b5f1ea94611f529513d42e7ef;
+&a3f32c6cff8f1e487d5d96e81ae97bbac;
+&a1b70db56de3d7406ed42bf36b8254a9b;
+&a1d125b83c3eea8faf75d27a59deb94b4;
+&a3f9bc2699cfe830344ee3da9f243ffd0;
+&ab2bb39aef5f6605a814894e9d94d56f0;
+&a7ef0869a5a2b174c7e9e87ebf59a6461;
+&a7461290e67729b121cb3f6de19eb7240;
+&a1363dd239108239facb73c789ef0244e;
+&adbfac245b5dfc7ffd438e5b576bea4ac;
+&aa3dc21aa638ae7d5f60f50ff82fee0c7;
+&ab857b68b5a0bb2c6c057713fa16832b4;
+&ac1168bae13dcf06789fa28fdac62b039;
+&af32431c0544f6171a15fc64764337066;
+&a95796afefc8d8fb050da19e42b458043;
+&af66e7778983b6fd868bb11884a726f94;
+&a949178cae11a6052f0d1295f5a30460a;
+&a588ab9da9408a76eb2b4e79885923252;
+&a03694e21207462dd7d8d36b4c72b328e;
+&a12aa30a24d28e163fa6110512d3fcf80;
+&ad078c99fa64a157bb200390dd042b691;
+&ae03d50c49785c13d62589b7ed0fa3461;
+&ac05f9e23d2ec5f7193aa52955d682a82;
+&ada8a51d7b8cadc2bd3cfb3fcb830947c;
+&a0331c9f50b7a6add119b34465980134f;
+&a0b1aceab94728285aeadee5fdeebc80a;
+&ad68a741983cc929bd0e0f893061738e9;
+&a0c2b6286889fb06e6907023c57674f04;
+&aae5451e28b079574015f09362103e371;
+&a0ef7432cd439be60ad301a53ef0f5a16;
+&a24221bb213045e6b60f91f26d1225cc7;
+&a642078ecdae1aa5469d2117c5d7bb826;
+&a2263a464309fe90f7869db0f1c71dc14;
+&aaa211c1be72a199a0bc1fa7d0feb39b5;
+&ad7003e2519d5d9c4d39e2b3b9b9e9f68;
+&a433d3e02e08e742973dd96ba049d74f4;
+&a06f9618db1533c250e0c64ea4ad3a3bb;
+&a974f035e0c4fef6a9e0a7fa5a7082bce;
+&a668ec7d66e2490e920ed2ab99db0765c;
+&a7116b925decc2277619c6cd841d5a1c6;
+&ab7eab36aca9ca912f74c30c77a9424d7;
+&a57c5f10ff362f949340af4c75416b0e8;
+&a44155b9069d150d8ed193db659e057ad;
+&a0120e5ea38c4d2e5125c26938fcdc6ca;
+&ad5093996647aa7333241a0e2a47b5683;
+&a09aff4320d593fad7b69c9410281f15f;
+&abce11e32262ab052babd711f88aaefe6;
+&afc3c7b5baa3538dea48f220b0f8f3b94;
+&ae66101ad5beaeb92e71545e1b27de589;
+&a41bae4c7d6aeb86ef6ca8da3953e6649;
+&a6d4e7c4d807115d10f96283941075024;
+&a8ac1a7a7f77ba61f00fae7578aba4f32;
+&aae9044a3100debb4d513df5831d993aa;
+&a9a90c507d0050cbc36bda0dfbe3126e8;
+&a8fa13182d2ebf2c2e9687e5f3e0a3023;
+&abfd87cf1d60ba779e83e43bc4e2063d2;
+&a182e5a7a5db1d78cb52904d4cf33ab2f;
+&ac6e216823f1c26fea1447de3a8bc3aca;
+&abfd870bde4554d414b4182763c84c534;
+&a2a23c86fa6c9ffe26c25b3fc1faf09d8;
+&a478308954169a08317f39dd155c722d7;
+&aeee0d9f1df6c47654819e468678f6512;
+&a1a6e8fc42f50b803c271f3a705fed822;
+&af977aa475424df23b4293f59e565466d;
+&a6effab0a2cba8b8e15c9aa7788c23fec;
+&a8ce361a1cc85bd2a087ce9c91fe364d9;
+&ac69b54e8ac850e1570116ef2f73ead2d;
+&a15a996825a16fcf7e6354b689823d3d3;
+&aaebad5ab3e06f47f91d5b9b3febc3de6;
+&a08880437c3333c7f958157beeac467c0;
+&a985eb30de6565ebdcd9d1764e684cbc3;
+&ae95c60fb83d8dcb331d232f329b20439;
+&a96116be93f4126c4d46c5a3e615df390;
+&a51952b56e46b71a67ed046b6de3e159e;
+&a0856e31e5bad687a7f8757b9d6d676aa;
+&ac2af8eacf368c152528526880decff3f;
+&a3170ca193832a2b5cf16c227fe8b3265;
+&a60ab3da6516ae311ec755ee2c8b3ef8a;
+&a71aeca52d69c793ef6c3a9d8f96f9d40;
+&a435cbac49d990f5515eeab161f13ec74;
+&ad07cf4f8886f6ff3441c695b084a62b1;
+&a728ca40087fafadc075805295b9271f7;
+&a61b0fac2d1f2abab7a45577573a49275;
+&ad0a355024c8d6a1ef0bbdd4cbba67dc5;
+&a87cf98749ff11c7e43ad94b9a12876fa;
+&a803bab5f285706604afe518c3bd1859d;
+&a0c74e4e5a62f0fd82655311469416010;
+&a91f005513c9f0eb96721fd95e791ca89;
+&a2436fc0dbdf9b40a33cc4a0161ad9333;
+&afc1920e7b1cb33d05769f4b302648940;
+&ae684bf64d225b0dda99fd7c9a4e48b49;
+&a93efd13c668b8d3e7da6a73a761a2650;
+&a3586ff2d4ecee12c7973539eb91344a6;
+&a8a7235c936c2166c925a7c68edbcf711;
+&a6cb99fb26ce8e61d42e3a5f413bdb932;
+&a79d1b382a0483c7ab8ca5c6f58db9ffd;
+&a8fcdb9fb94f8dd142693149ab0c61fdd;
+&a44af67dbb790b33cbb2f4aace74b10d1;
+&acf2be0ec16bd3d01c3be923d8a10d4df;
+&ab413c8f8dd474add6cda33509cc5921b;
+&aea3de966ddccaf6f983891588eb8a2fa;
+&a5950761c3910550a73aee709827ffeab;
+&a0411f7c6debef6110f5d437c4c6343ad;
+&ae5a3d9f0d8bb3bdecfe8e3cc9228c729;
+&a485d14f8fdced359237018a9341d3ea3;
+&a699589db63b8de069c1122e0898cb8a2;
+&afdb32655f6419243d1a64cdd394745fe;
+&a4eedd44c6a6d9ac1344939e6183a8c77;
+&a93333b14da20ecf7a1b89dcee3681aac;
+&a0e385c38d8553623b4119c66346e4b5f;
+&ae62bf772e8e08f7876d63193b7f9e749;
+&a4876820682e1d327bcda24046ddb0028;
+&a6bf089b05a3578a211898d05c90f38c8;
+&a95828b7714156f8e63bbd6443710c17e;
+&ae905548e1711943d8ed997e51d9f3b32;
+&ac9719fc9ecec38b82d89bbf4c70040d8;
+&a882f47c312162ad703c06e3e66bc37d2;
+&a9ef62f6c20fbd86fba2a1f419bd2488e;
+&abe98003796f420ebd62b049e1df00909;
+&a55cd40f0d8d9551df35e4c3d63e12aa2;
+&a189b3f162c94a51d765bd890a9173a8a;
+&a1a914841694a775a1345e33ed376954c;
+&a01aa266d21524e8d1f945b9745ef48c6;
+&a6d658ceed17d9221887e917642f5a474;
+&a1ebefda62cf004fdd8f158a24f0bf5ac;
+&a94f177c92acf7060fa36925c91ee88bd;
+&a541a32dd06e54ad03ffa1b1718857de6;
+&a96a71dbdd5146a881aa8d97109a4e2b6;
+&aa2ecc1cffb9495b4156a77b6253c1ce0;
+&a6bb839395ac820f4ec54101ebd0dfd46;
+&a97d7d884100172c15f0e54828d1a984f;
+&aa34e16de95eb66103fe0df3da5477174;
+&a8b6ae9822c1d84da6cca264dd95b4268;
+&abfeed02b463b3a7c1e9ddfae5833dd41;
+&ad47a0c4a300f7c5c0aa7573f9683f11e;
 </part>
 </book>

@@ -2,11 +2,11 @@
 
 <!--
  *
- * This help file was generated from _levin.sci using help_from_sci().
+ * This help file was generated from signal_levin.sci using help_from_sci().
  *
  -->
 
-<refentry version="5.0-subset Scilab" xml:id="_levin" xml:lang="en"
+<refentry version="5.0-subset Scilab" xml:id="signal_levin" xml:lang="en"
           xmlns="http://docbook.org/ns/docbook"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:svg="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@
           xmlns:db="http://docbook.org/ns/docbook">
 
   <refnamediv>
-    <refname>_levin</refname>
+    <refname>signal_levin</refname>
     <refpurpose>Resolve the Yule-Walker equations:</refpurpose>
   </refnamediv>
 
@@ -24,7 +24,7 @@
 <refsynopsisdiv>
    <title>Syntax</title>
    <synopsis>
-   [ar,sigma2,rc]=_levin(r)
+   [ar,sigma2,rc]=signal_levin(r)
    
    </synopsis>
 </refsynopsisdiv>
@@ -74,7 +74,7 @@ using Levinson's algorithm.
 // Correlation coefficients
 r = [1, 0.8, 0.5, 0.2]
 // Solve the Yule-Walker equations
-[ar, sigma2, rc] = _levin(r)
+[ar, sigma2, rc] = signal_levin(r)
    ]]></programlisting>
 </refsection>
 </refentry>

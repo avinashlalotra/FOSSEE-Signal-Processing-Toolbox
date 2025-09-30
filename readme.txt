@@ -4,7 +4,7 @@ Title: Signal Processing Toolbox
 
 Summary: A Scilab toolbox providing functions for signal generation, transformation, filtering, and analysis.
 
-Version: 0.3
+Version: 0.2.0
 
 Author: FOSSEE Scilab Team
 

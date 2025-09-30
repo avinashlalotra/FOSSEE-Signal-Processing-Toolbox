@@ -1,4 +1,4 @@
-FOSSEE_SIGNAL_PROCESSING_TOOLBOX (0.1)
-    * This is the very first version
+FOSSEE_SIGNAL_PROCESSING_TOOLBOX (0.2.0)
+    * Documentation corruption bug fix on scilab >=2025
  -- Author <office@fossee.in>  Tue, 19 Aug 2025 22:06:02 +0100
 

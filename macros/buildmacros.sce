@@ -1,15 +1,10 @@
-// Copyright (C) 2017 - IIT Bombay - FOSSEE
-//
-// This file must be used under the terms of the BSD.
-// This source file is licensed as described in the file LICENSE, which
-// you should have received as part of this distribution.  The terms
-// are also available at
-// https://opensource.org/licenses/BSD-3-Clause
-// Author: Shamika Mohanan
-// Organization: FOSSEE, IIT Bombay
-// Email: toolbox@scilab.in
+// This file is released under the 3-clause BSD license. See COPYING-BSD.
 
-tbx_build_macros("FOSSEE_Signal_Processing_Toolbox", get_absolute_file_path("buildmacros.sce"));
+function buildmacros()
+    macros_path = get_absolute_file_path("buildmacros.sce");
+    tbx_build_macros(TOOLBOX_NAME, macros_path);
+endfunction
 
-clear tbx_build_macros;
+buildmacros();
+clear buildmacros; // remove buildmacros on stack
 

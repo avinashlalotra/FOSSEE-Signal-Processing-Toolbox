@@ -2,11 +2,11 @@
 
 <!--
  *
- * This help file was generated from _czt.sci using help_from_sci().
+ * This help file was generated from signal_czt.sci using help_from_sci().
  *
  -->
 
-<refentry version="5.0-subset Scilab" xml:id="_czt" xml:lang="en"
+<refentry version="5.0-subset Scilab" xml:id="signal_czt" xml:lang="en"
           xmlns="http://docbook.org/ns/docbook"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns:svg="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@
           xmlns:db="http://docbook.org/ns/docbook">
 
   <refnamediv>
-    <refname>_czt</refname>
+    <refname>signal_czt</refname>
     <refpurpose>Compute the Chirp z-transform.</refpurpose>
   </refnamediv>
 
@@ -24,10 +24,10 @@
 <refsynopsisdiv>
    <title>Syntax</title>
    <synopsis>
-   y = _czt(x)
-   y = _czt(x, m)
-   y = _czt(x, m, w)
-   y = _czt(x, m, w, a)
+   y = signal_czt(x)
+   y = signal_czt(x, m)
+   y = signal_czt(x, m, w)
+   y = signal_czt(x, m, w, a)
    
    </synopsis>
 </refsynopsisdiv>
@@ -81,16 +81,16 @@ f_end   = 0.3
 w = exp(-2 * %i * %pi * (f_end - f_start) / M);
 a = exp(2 * %i * %pi * f_start);
 // --- CZT Computation ---
-X_czt = _czt(x, M, w, a);
+Xsignal_czt = signal_czt(x, M, w, a);
 // --- Frequency Axis ---
-freq_czt = f_start + (0:(M - 1)) * (f_end - f_start) / M;
+freqsignal_czt = f_start + (0:(M - 1)) * (f_end - f_start) / M;
 // --- Peak Frequency Detection ---
-[_, idx_max] = max(abs(X_czt))
-detected_freq = freq_czt(idx_max)
+[_, idx_max] = max(abs(Xsignal_czt))
+detected_freq = freqsignal_czt(idx_max)
 disp("Detected frequency = " + string(detected_freq));
 // --- Plot ---
 clf();
-plot2d(freq_czt', abs(X_czt)');
+plot2d(freqsignal_czt', abs(Xsignal_czt)');
 xtitle("CZT Spectrum of Sine Wave at f = " + string(f0));
 xlabel("Normalized Frequency");
 ylabel("|X(f)|");

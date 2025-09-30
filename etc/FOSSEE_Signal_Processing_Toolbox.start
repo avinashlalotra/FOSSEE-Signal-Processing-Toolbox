@@ -1,68 +1,68 @@
-// Copyright (C) 2015 - IIT Bombay - FOSSEE
-//
-// This file must be used under the terms of the BSD.
-// This source file is licensed as described in the file LICENSE, which
-// you should have received as part of this distribution.  The terms
-// are also available at
-// https://opensource.org/licenses/BSD-3-Clause
-// Author: Shamika Mohanan 
-// Modified by: Abinash Singh Under FOSSEE Internship
-// Last Modified On: 19 March 2024
-// Organization: FOSSEE, IIT Bombay
-// Email: toolbox@scilab.in
+// Copyright (C) 2008 - INRIA
+// Copyright (C) 2009 - DIGITEO
 
-mprintf("Start FOSSEE Signal Processing Toolbox\n");
+// This file is released under the 3-clause BSD license. See COPYING-BSD.
 
-[a, opt] = getversion();
-Version = opt(2);
+function toolbox_skeletonlib = startModule()
 
-etc_tlbx  = get_absolute_file_path("FOSSEE_Signal_Processing_Toolbox.start");
-etc_tlbx  = getshortpathname(etc_tlbx);
-root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
+    TOOLBOX_NAME  = "FOSSEE_Signal_Processing_Toolbox";
+    TOOLBOX_TITLE = "FOSSEE_Signal_Processing_Toolbox";
+
+  mprintf("Start " + TOOLBOX_TITLE + "\n");
+
+  if isdef("toolbox_skeletonlib") then
+    warning("Toolbox skeleton library is already loaded");
+    return;
+  end
+
+  etc_tlbx  = get_absolute_file_path("FOSSEE_Signal_Processing_Toolbox.start");
+  etc_tlbx  = getshortpathname(etc_tlbx);
+  root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 
 //Load  functions library
 // =============================================================================
-mprintf("\tLoad macros\n");
-pathmacros = pathconvert( root_tlbx ) + "macros" + filesep();
-fsoit_lib = lib(pathmacros);
-clear pathmacros;
+  mprintf("\tLoad macros\n");
+  pathmacros = pathconvert( root_tlbx ) + "macros" + filesep();
+  toolbox_skeletonlib = lib(pathmacros);
 
-// load gateways
+// load gateways and Java libraries
 // =============================================================================
+  // verboseMode = ilib_verbose();
+  // ilib_verbose(0);
+  // mprintf("\tLoad gateways\n");
+  // exec(pathconvert(root_tlbx+"/sci_gateway/loader_gateway.sce",%f));
+  // mprintf("\tLoad Java libraries\n");
+  // exec(pathconvert(root_tlbx+"/src/java/loader.sce",%f));
+  // ilib_verbose(verboseMode);
 
-mprintf("\tLoad gateways\n");
-[a, opt] = getversion();
-Version = opt(2);
-ilib_verbose(0);
-//exec(pathconvert(root_tlbx + filesep() + "sci_gateway" + filesep() + "loader_gateway.sce",%f));
+// load localization
+  addlocalizationdomain(TOOLBOX_NAME, root_tlbx + "/locales");
 
 // Load and add help chapter
 // =============================================================================
-if ( %t ) then 
-// create jar dir if not exists
-if ( isdir(root_tlbx+"/jar") == %f ) then
-    mkdir(root_tlbx+"/jar");
-end
-if or(getscilabmode() == ["NW";"STD"]) then
-        mprintf("\tLoad help\n");
-        path_addchapter = pathconvert(root_tlbx+"/jar");
-        if ( isdir(path_addchapter) <> [] ) then
-                add_help_chapter("FOSSEE_Signal_Processing_Toolbox", path_addchapter, %F);
-                clear add_help_chapter;
-        end
-        clear path_addchapter;
-end
-end
+  if or(getscilabmode() == ["NW";"STD"]) then
+    mprintf("\tLoad help\n");
+    path_addchapter = pathconvert(root_tlbx+"/jar");
+    if isdir(path_addchapter) then
+      add_help_chapter(TOOLBOX_NAME, path_addchapter, %F);
+    end
+  end
 
-// add demos
+// Load demos
 // =============================================================================
-
-if ( %t ) then
-if or(getscilabmode() == ["NW";"STD"]) then
+  if or(getscilabmode() == ["NW";"STD"]) then
     mprintf("\tLoad demos\n");
-end
-end
+    pathdemos = pathconvert(root_tlbx+"/demos/demo.sce", %F, %T);
+    add_demo(TOOLBOX_TITLE, pathdemos);
+  end
 
+// Load Preferences GUI
 // =============================================================================
+  if getscilabmode() == "STD" then
+    addModulePreferences(TOOLBOX_TITLE, root_tlbx, etc_tlbx + "toolbox_skeleton_preferences.xml");
+  end
 
-clear etc_tlbx root_tlbx Version a opt lib_path;
+endfunction
+
+toolbox_skeletonlib = startModule();
+clear startModule; // remove startModule on stack

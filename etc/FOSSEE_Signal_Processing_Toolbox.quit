@@ -1,14 +1,6 @@
-// Copyright (C) 2015 - IIT Bombay - FOSSEE
-//
-// This file must be used under the terms of the BSD.
-// This source file is licensed as described in the file LICENSE, which
-// you should have received as part of this distribution.  The terms
-// are also available at
-// https://opensource.org/licenses/BSD-3-Clause
-// Author: Shamika Mohanan
-// Organization: FOSSEE, IIT Bombay
-// Email: toolbox@scilab.in
+// This file is released under the 3-clause BSD license. See COPYING-BSD.
 
+// Some specific hooks can be specify here when the module is unloaded.
 
 function quitModule()
 
@@ -17,7 +9,17 @@ function quitModule()
     root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 
     //unlink libraries
-    [bOK, ilib] = c_link('FOSSEE_Signal_Processing_Toolbox');
+    [bOK, ilib] = c_link('skeleton_cpp');
+    if bOK then
+        ulink(ilib);
+    end
+
+    [bOK, ilib] = c_link('skeleton_c');
+    if bOK then
+        ulink(ilib);
+    end
+
+    [bOK, ilib] = c_link('skeleton_fortran');
     if bOK then
         ulink(ilib);
     end
@@ -27,8 +29,9 @@ function quitModule()
     if getscilabmode() == "STD" then
     removeModulePreferences(root_tlbx);
     end
-	ulink();
+
 endfunction
 
-clear quitModule;
 
+quitModule();
+clear quitModule;

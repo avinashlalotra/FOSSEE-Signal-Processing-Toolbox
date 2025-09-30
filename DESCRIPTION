@@ -27,7 +27,7 @@ Summary: A toolbox providing essential functions for signal generation, transfor
 // 'major.minor.patch', where all fields are numbers.
 // If you are just starting your toolbox, you should use '0.1' or '0.1.0'.
 // Use '1.0' or '1.0.0' for a tested, good quality first version.
-Version: 0.3
+Version: 0.2.0
 
 // Name(s) of the author(s) of this toolbox.
 // They are usually the original copyright holders
@@ -68,7 +68,7 @@ ScilabVersion: >= 6.0
 Depends: 
 
 // Creation date
-Date: 2025-09-13
+Date: 2025-09-29
 
 Description: The Signal Processing Toolbox provides a collection of functions for
  signal analysis, transformation, and synthesis in Scilab. It is designed to
